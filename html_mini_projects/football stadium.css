@@ -1,0 +1,83 @@
+body{
+    background-color: green;
+}
+.stadium{
+    margin: 20px;
+    border: solid 1px white;
+    height: 560px;
+    width: 1220px;
+    display: flex;
+}
+.barsa{
+    width: 608px;
+    height: 560px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: flex;
+}
+.barsa_penalty_area{
+    width: 200px;
+    border: solid 1px white;
+    margin-top: 120px;
+    height: 310px;
+    float: left;
+}
+.barsa_penalty_area .barsa_varta{
+    width: 30px;
+    height: 80px;
+    border: solid 1px white;
+    float: left;
+    margin-top: 110px;
+}
+.barsa_penalty_area .barsa_varta .penalty1{
+    width: 2px;
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-left: 80px;
+    padding: 1px;
+    border-radius: 4px;
+    background-color: white;
+    float: left;
+}
+.centr{
+    border: 1px solid white;
+    padding: 60px;
+    align-self: center;
+    border-radius: 60px;
+}
+.centr_line{
+    padding: 2px;
+    border: solid 1px white;
+    border-radius: 4px;
+    background-color: white;
+}
+.real{
+    float: right;
+    width: 608px;
+    height: 560px;
+}
+.real_penalty_area{
+    width: 200px;
+    border: solid 1px white;
+    margin-top: 120px;
+    height: 310px;
+    float: right;
+}
+.real_penalty_area .real_varta{
+    width: 30px;
+    height: 80px;
+    border: solid 1px white;
+    float: right;
+    margin-top: 110px;
+}
+.real_penalty_area .real_varta .penalty2{
+    width: 2px;
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-right: 80px;
+    padding: 1px;
+    border-radius: 4px;
+    background-color: white;
+    float: right;
+}

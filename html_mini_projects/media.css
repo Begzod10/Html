@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: lightslategray;
+}
+
+.theme {
+    margin-top: 2rem;
+    margin-left: 43%;
+}
+
+.video_div {
+    padding: 0;
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+.video {
+    border: 2px solid black;
+    width: 500px;
+}
+
+.audio_div {
+    padding: 0;
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+.audio {
+    width: 500px;
+}
+
+.audio:active {
+    border: 0;
+}
+
+.iframe {
+    padding: 0;
+    margin-left: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

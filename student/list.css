@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752");
+    background-repeat: no-repeat;
+    background-size: 1566px;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.for_h1{
+    text-align: center;
+}
+.basic_div ol{
+     display: flex;
+    justify-content: space-around;
+}
+.basic_list {
+    display: flex;
+    justify-content: space-around;
+}
+.for_ul ul {
+    border: 1px solid;
+    list-style: none;
+    background-color: rgba(0, 166, 255, 0);
+}
+.basic_div ol:hover{
+    box-shadow: 0 0 20px 10px ;
+    transition-duration: 1s;
+}
+.for_ul ul:hover{
+      box-shadow: 0 0 20px 10px ;
+    transition-duration: 1s;
+}
+h1:hover{
+    display: inline-block;
+      box-shadow: 0 0 20px 10px ;
+    transition-duration: 1s;
+    padding: 10px;
+}
+
+
+

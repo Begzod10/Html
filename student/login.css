@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://myrepublica.nagariknetwork.com/uploads/media/nature_20210209150332.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1455px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.basic{
+    display: flex;
+    flex-direction: column;
+    width:500px ;
+    height: 400px;
+    background-color: rgba(0, 166, 255, 0);
+    margin: 0 auto;
+}
+.div{
+    margin-top: 150px;
+}
+.basic_input{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top:40px;
+}
+.for_login{
+ text-align: center;
+    font-size: 20px;
+
+}
+.basic_input input{
+    align-self: center;
+    width:300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    border: none;
+
+}
+.basic_input input:focus{
+    outline: none;
+}
+.basic_input:hover{
+    box-shadow: 0 0 20px 10px ;
+    transition-duration: 1s;
+}
+.basic_input input[type=submit]{
+    width: 200px;
+}
+.for_login:hover{
+ box-shadow: 0 0 20px 10px ;
+    transition-duration: 1s;
+}

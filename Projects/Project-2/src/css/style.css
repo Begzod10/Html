@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+nav{
+    height: 50px;
+    background-color: #212529;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 79px;
+    margin: 0;
+    list-style: none;
+}
+.menu .menu_link{
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu .menu_item{
+    border-right:2px dotted black;
+    padding-right: 60px;
+}
+.menu .menu_item:last-child{
+    border-right: 0;
+}
+.subheader{
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.subheader .subheader_logo{
+    margin-top: 16px;
+    max-width: 100%;
+}
+.subheader .subheader_logo img{
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+}
+.subheader .subheader_official{
+    margin-top: 6px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+.subheader .subheader_call{
+    font-size: 12px;
+    text-align: right;
+    color: white;
+    margin-top: 19px;
+}
+.subheader .subheader_phone{
+    display: block;
+    margin-top: 8px;
+    color: white;
+    font-size: 20px;
+}
+.subheader .subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset -3px 0 rgba(0,0,0,0.12);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: white;
+    border-radius: 4px;
+}
+.subheader .subheader_btn:active{
+    transform: scale(0.90);
+}
+.promo{
+    min-height: 800px;
+    background: url("https://i.pinimg.com/originals/41/a8/e4/41a8e4d104c9ebd9009b24e8c6b98476.jpg")center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+.promo .promo_subheader{
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+.promo .promo_desc{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 23px;
+
+}
+.promo .promo_btn{
+    display: block;
+    margin: 80px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset -3px 0 rgba(0,0,0,0.12);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.promo .promo_btn:active{
+    transform: scale(0.90);
+}
+.ads .ads_header{
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    width: 113px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.ads .ads_games_subheader{
+    text-align: center;
+    margin-top: 25px;
+    text-transform: capitalize;
+    font-size: 38px;
+}
+.ads .info{
+    display: flex;
+    margin: 10px;
+}
+.ads .ads_sub{
+    margin-left: 5px;
+}
+.ads .info .ads_sub span{
+    color: #00a6ff;
+}
+.ads .info img{
+    width: 100px;
+}
+.top_6 .top_6_header{
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #612200;
+}
+.top_6 .top_6_subheader{
+    text-align: center;
+}
+.top_6 .top_6_games{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.top_6 .top_6_games .top_6_game{
+    width: 320px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.33);
+    margin: 10px 20px;
+}
+.top_6 .top_6_games .top_6_game:first-child{
+    background: url("../img/asb.png")center center/cover no-repeat;
+    filter: blur(5px);
+}

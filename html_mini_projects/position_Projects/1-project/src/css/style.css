@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.basic_icon{
+    position: fixed;
+    z-index: 10;
+}
+.basic_icon img{
+    width: 100px;
+}
+.basic .basic_list{
+    position: relative;
+    background-color: #00a6ff;
+}
+.basic .basic_list .basic_student{
+    position: absolute;
+    width: 400px;
+    border: 1px solid;
+}
+.basic .basic_list .basic_student:first-child{
+    right: 0;
+}
+.basic .basic_list .basic_student:nth-child(2){
+    top: 69px;
+    right: 35%;
+}
+.basic .basic_list .basic_student:nth-child(3){
+    top: 457px;
+    left: 15%;
+}
+.basic .basic_list .basic_student:last-child{
+    right: 15%;
+    top: 457px;
+}
+.basic .basic_list .basic_student img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+.basic .basic_list .basic_student .basic_name,.basic_surname{
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+}
+.basic .basic_list .basic_student .basic_info table{
+    margin: 0 auto;
+}
+.basic .basic_list .basic_student .basic_info table tr td,th{
+    border: 1px solid black;
+}
+.basic .basic_list .basic_student .basic_links{
+    margin: 10px auto;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
+.basic .basic_list .basic_student .basic_links div{
+    position: absolute;
+}
+.basic .basic_list .basic_student .basic_links div:first-child{
+    right: 0;
+}
+.basic .basic_list .basic_student .basic_links div:nth-child(2){
+    top: 38%;
+    left: 0;
+}
+.basic .basic_list .basic_student .basic_links div:nth-child(3){
+    right: 0;
+    bottom: 0;
+}
+.basic .basic_list .basic_student .basic_links div:nth-child(4){
+    right: 0;
+    top: 38%;
+}
+.basic .basic_list .basic_student .basic_links div:nth-child(5){
+    bottom: 0;
+}
+.basic .basic_list .basic_student .basic_links img{
+    width: 20px;
+}

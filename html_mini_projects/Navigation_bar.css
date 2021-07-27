@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://previews.123rf.com/images/stymbox/stymbox1206/stymbox120600003/13994061-blue-bubble-and-light-blue-background.jpg");
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:link,a:visited {
+    color: inherit;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(10px);
+}
+.menu .menu_item {
+    color: #ffffff;
+}
+
+.menu .menu_item:hover {
+    color: red;
+}

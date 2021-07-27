@@ -1,0 +1,46 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*#main h1{*/
+/*    text-align: center;*/
+/*    font-family: "Javanese Text";*/
+/*}*/
+/*#text{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*.each_text{*/
+/*    width: 400px;*/
+/*    background-color: rgba(255, 255, 255, 0.29);*/
+/*    text-align: center;*/
+/*    margin-bottom: 2rem;*/
+/*    margin-left: 1.5rem;*/
+/*    backdrop-filter: blur(10px);*/
+/*    border-radius:20px;*/
+/*    padding:7px;*/
+
+/*}*/
+
+/*.each_text:hover {*/
+/*    transition-duration: 0.9s;*/
+/*    box-shadow: 0 0 20px 0 black;*/
+/*}*/
+/*.each_text p{*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.each_text img{*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    border-radius: 30px;*/
+/*}*/
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #00a6ff;
+    transition-duration: 2s;
+}
+.box:hover{
+    box-shadow: 8px 11px 12px 3px black;
+}

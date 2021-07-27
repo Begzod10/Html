@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    background-image: url("https://i.pinimg.com/originals/63/bc/18/63bc18a6af4afe785911c9ae035c3e0f.jpg");
+
+}
+#text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.each_text{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.29);
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    backdrop-filter: blur(10px);
+    border-radius:20px;
+    padding:7px;
+
+}
+
+.each_text:hover {
+    transition-duration: 0.9s;
+    box-shadow: 0 0 20px 0 black;
+}
+.each_text p{
+    margin-bottom: 20px;
+}
+.each_text img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+}
+.each_text:nth-child(3n+1){
+    margin-left: 0.25rem;
+}
+#table th,td{
+    border: solid 1px #faf8f8;
+    color: white;
+    font-size: 20px;
+}
+#table caption{
+    color: white;
+    font-size: 20px;
+}
+#table{
+    background-color: rgba(0, 0, 0, 0.29);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    margin-left: 35%;
+}
+#main h1{
+    text-align: center;
+    font-family: "Javanese Text";
+}

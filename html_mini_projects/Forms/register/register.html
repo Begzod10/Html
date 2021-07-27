@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+</head>
+<body>
+<div id="main">
+        <h1>Register into your website</h1>
+    <div class="for_input">
+        <label>Name</label>
+        <input type="text" placeholder="name">
+        <label>Surname</label>
+        <input type="text" placeholder="surname">
+        <label>Age</label>
+        <input class="input_date" type="date" placeholder="age">
+        <div class="checkbox">
+            <label>Married</label>
+            <input class="input_checkbox" type="checkbox">
+        </div>
+        <label>Telephone</label>
+        <input class="tel" type="number" placeholder="telephone">
+        <label>Password</label>
+        <input type="password" class="password">
+        <label>Confirm Password</label>
+        <input type="password" class="password">
+        <div class="show_password">
+            <input type="checkbox" class="checkbox_input">
+            <label>Show Password</label>
+        </div>
+        <label>Photo</label>
+        <input class="input_photo" type="file">
+        <input class="input_submit" type="submit" value="Register">
+    </div>
+</div>
+<script>
+    let passwords = document.querySelectorAll('.password'),
+        checkbox = document.querySelector('.checkbox_input');
+    console.log(passwords)
+    console.log(checkbox)
+    checkbox.addEventListener('click',()=>{
+        passwords.forEach(pass=>{
+           if (pass.type ==="password"){
+               pass.type = "text";
+           }else {
+               pass.type = "password";
+           }
+        })
+    })
+</script>
+</body>
+</html>

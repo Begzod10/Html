@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../2-login/img/key-solid.svg">
+    <link rel="stylesheet" href="../2-login/css/style.min.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="login">
+    <div class="login_basic">
+        <div class="login_header">Login Form</div>
+        <div class="login_inputs">
+            <input type="text" placeholder="Enter your username">
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <div class="login_checkbox">
+            <input type="checkbox" class="checkbox">
+            <label>Show password</label>
+        </div>
+        <div class="login_button">
+            <button>Login</button>
+        </div>
+        <div class="login_text">Or login by</div>
+        <div class="login_links">
+            <img src="../2-login/img/telegram-brands.svg" alt="">
+            <img src="../2-login/img/instagram-brands.svg" alt="">
+            <img src="../2-login/img/facebook-square-brands.svg" alt="">
+        </div>
+    </div>
+</div>
+
+<script>
+    let checkbox = document.querySelector('.checkbox');
+    let password = document.querySelector('#password');
+    checkbox.addEventListener('click',()=>{
+        if (password.type === 'text'){
+            password.type = 'password'
+        }else {
+            password.type = 'text';
+        }
+
+    })
+</script>
+</body>
+</html>

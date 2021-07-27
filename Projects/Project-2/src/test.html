@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sass</title>
+<!--    <link rel="stylesheet" href="../src/sass/style.min.css">-->
+    <style>
+        button{
+            width: 250px;
+            height: 50px;
+            background-color: #0de559;
+            border: none;
+            cursor: pointer;
+            transition: 0.5s all;
+            outline: none;
+        }
+        button:hover{
+            background-color: red;
+            color: whitesmoke;
+        }
+        button:active{
+            background-color: black;
+            color: whitesmoke;
+        }
+        button:focus{
+            background-color: orange;
+        }
+        .circle{
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            border-radius: 100%;
+            margin-top: 10px;
+            transition: 0.5s all;
+        }
+        .circle:nth-child(2n+1){
+            background-color: red;
+        }
+        .circle:before{
+            content: "";
+            display: block;
+            height: 300px;
+            background-image: url("../src/img/as-val.jpg");
+            background-size: cover;
+            width: 0;
+            transition: 0.5s all;
+        }
+        .circle:hover.circle:before{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<button>Click me!</button>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+
+</body>
+</html>

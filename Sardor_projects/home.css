@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url("https://wallpapercave.com/wp/wp2895265.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ul_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.28);
+    height: 50px;
+    backdrop-filter: blur(3px);
+    border-radius: 30px;
+    font-size: 25px;
+}
+.ul_list a{
+    text-decoration: none;
+    color: white;
+}
+.ul_list{
+    transition-duration: 2s;
+}
+.ul_list:hover{
+    color: yellow;
+    transition-duration: 1.5s;
+    box-shadow:12px 10px 5px 0 red;
+}
+.basic_div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.36);
+    backdrop-filter: blur(3px);
+}
+.img_list{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid ;
+    transition-duration: 1s;
+    color: white;
+}
+.img_list img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 30px;
+}
+.img_list p {
+    border: 1px solid;
+    padding: 5px;
+}
+.img_list:hover{
+    color: black;
+    transform: scale(0.9);
+    transition-duration: 1s;
+    border: black solid;
+}
+.img_list:first-child:hover{
+    background-color: yellow;
+}
+.img_list:nth-child(2):hover{
+    background-color: rgb(0, 128, 0);
+}
+.img_list:nth-child(3):hover{
+    background-color: rgb(0, 0, 255);
+}
