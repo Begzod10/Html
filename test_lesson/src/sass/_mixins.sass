@@ -1,0 +1,12 @@
+@mixin buttons
+  outline: none
+  border: none
+  padding: 8px
+  width: 100px
+  text-align: center
+  background-image: radial-gradient($attr_color 35%,black 88%)
+  border-radius: 5px
+
+@mixin button_focus
+  background-image: radial-gradient(black 35%,$attr_color 88%)
+  color: $attr_color
