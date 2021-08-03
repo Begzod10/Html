@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main_profile{
+    width: 400px;
+    height: 600px;
+    background-color: #00a6ff;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.main_profile .main_img{
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.main_profile hr{
+    margin-top: 15px;
+    height: 4px;
+    background-color: black;
+}
+.main_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_info h2{
+    margin-top: 10px;
+    font-family: 'Style Script', cursive;
+    color: white;
+}
+.main_info table tr,th,td{
+    border: 2px solid black;
+}
+.main_extra_info{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main_links img{
+    margin-top: 20px;
+    width: 50px;
+    border-radius: 50%;
+}

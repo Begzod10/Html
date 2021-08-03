@@ -20,7 +20,7 @@ nav {
   justify-content: space-between;
   padding: 13px 79px;
   margin: 0;
-  list-style: none;
+  list-style: Roman;
 }
 .menu_link {
   color: white;

@@ -121,3 +121,68 @@ nav
         display: block
         width: 50px
         margin: 0 auto
+.clothes
+  min-height: 625px
+  background-color: #828282
+  &_basic
+    &_header
+      position: relative
+      top: 10px
+      text-align: center
+      font-size: 30px
+      &:before
+        content: ''
+        position: absolute
+        display: block
+        top: 9px
+        left: 480px
+        width: 24px
+        height: 24px
+        background: url("../icons/tshirt-solid.svg")center (center / cover)no-repeat
+    &_kids
+      font-size: 25px
+      font-weight: 800
+
+.product
+  min-height: 625px
+  background: url("../img/background/product_background.jpg")center (center/cover)no-repeat
+  &_basic
+    &_header
+      position: relative
+      top: 10px
+      font-size: 30px
+      text-align: center
+      &:before
+        content: ''
+        position: absolute
+        display: block
+        top: 4px
+        left: 472px
+        width: 26px
+        height: 30px
+        background: url("../icons/apple-alt-solid.svg")center (center / cover)no-repeat
+    &_container
+      position: relative
+      display: flex
+      top: 20px
+      justify-content: space-evenly
+      flex-wrap: wrap
+      overflow-x: auto
+      height: 500px
+      &_item
+        display: flex
+        flex-direction: column
+        width: 200px
+        background-color: rgba(255, 255, 255, 0.62)
+        backdrop-filter: blur(3px)
+        align-items: center
+        transition: 0.5s all
+        cursor: pointer
+        margin: 10px
+        border-radius: 20px
+        &:hover
+          box-shadow: 0 0 2px 4px rgba(43, 255, 54, 0.91)
+        &_img
+          img
+            width: 150px
+            height: 120px
