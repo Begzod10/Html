@@ -4,7 +4,7 @@
   background-image: linear-gradient(black, #363636);
 }
 .promo__menu {
-  width: 100%;
+  width: 50%;
   height: 55px;
   padding: 20px;
   display: flex;
