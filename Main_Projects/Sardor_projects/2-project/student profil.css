@@ -42,6 +42,7 @@ hr{
     margin: 20px 0 0 0;
 }
 .hello table{
+    display: none;
     transition-duration: 3s;
 }
 table tr th {

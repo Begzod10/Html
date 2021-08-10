@@ -123,7 +123,7 @@ nav
         margin: 0 auto
 .clothes
   min-height: 625px
-  background-color: #828282
+  margin-bottom: 10px
   &_basic
     &_header
       position: relative
@@ -139,9 +139,84 @@ nav
         width: 24px
         height: 24px
         background: url("../icons/tshirt-solid.svg")center (center / cover)no-repeat
-    &_kids
-      font-size: 25px
-      font-weight: 800
+    &_list
+      display: flex
+      justify-content: space-around
+      &_info
+        display: flex
+        flex-direction: column
+        align-items: center
+        position: relative
+        &_name
+          position: relative
+          top: 34px
+          background-color: #00ff0d
+          width: 52px
+          padding: 14px
+          border-radius: 50px
+          cursor: pointer
+        &_desc
+          width: 400px
+          background-color: #00ff0d
+          padding: 20px
+          border-radius: 0 0 10px 10px
+          margin: 5px
+          text-align: center
+          cursor: pointer
+        &:nth-child(2) .clothes_basic_list_info_name
+          width: 80px
+          background-color: #d900ff
+        &:nth-child(2) .clothes_basic_list_info_desc
+          background-color: #d900ff
+        &:last-child .clothes_basic_list_info_name
+          background-color: #00a6ff
+        &:last-child .clothes_basic_list_info_desc
+          background-color: #00a6ff
+    &_clothes
+      display: flex
+      justify-content: space-around
+      min-height: 400px
+      &_kids
+        width: 300px
+        display: flex
+        border-left: 2px solid black
+        border-bottom: 2px solid black
+        overflow: auto
+        &_list
+          display: flex
+          flex-direction: column
+          &_wear
+            display: flex
+            flex-direction: column
+            width: 300px
+            border-bottom: 2px solid black
+            padding: 10px
+            &:last-child
+              border-bottom: 0
+            &_text
+              text-align: center
+              border-radius: 10px
+            img
+              display: block
+              margin: 0 auto
+              width: 200px
+            &_button
+              display: flex
+              flex-direction: column
+              justify-items: center
+              margin-top: 10px
+              button
+                outline: none
+                border: none
+                padding: 5px
+                background-color: #00a6ff
+                border-radius: 10px
+                color: white
+                &:active
+                  background-color: #0a58ca
+                  transform: scale(0.90)
+
+
 
 .product
   min-height: 625px
