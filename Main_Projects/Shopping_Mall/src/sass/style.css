@@ -242,7 +242,6 @@ nav {
 }
 .clothes_basic_clothes_kids_list_wear_text {
   text-align: center;
-  border-radius: 10px;
 }
 .clothes_basic_clothes_kids_list_wear img {
   display: block;
@@ -251,17 +250,17 @@ nav {
 }
 .clothes_basic_clothes_kids_list_wear_button {
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  justify-content: center;
   margin-top: 10px;
 }
 .clothes_basic_clothes_kids_list_wear_button button {
   outline: none;
   border: none;
   padding: 5px;
+  border-radius: 5px;
   background-color: #00a6ff;
-  border-radius: 10px;
   color: white;
+  width: 100px;
 }
 .clothes_basic_clothes_kids_list_wear_button button:active {
   background-color: #0a58ca;
@@ -315,6 +314,26 @@ nav {
 .product_basic_container_item_img img {
   width: 150px;
   height: 120px;
+}
+
+.techniques {
+  min-height: 625px;
+}
+.techniques_basic__header {
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.techniques_basic__header:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 7px;
+  left: 449px;
+  width: 26px;
+  height: 30px;
+  background: url("../icons/wrench-solid.svg") center center/cover no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */

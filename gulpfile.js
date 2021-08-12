@@ -6,7 +6,7 @@ const cleanCSS = require('gulp-clean-css');
 
 
 gulp.task('styles',function () {
-    return gulp.src("Projects/Project-3/src/sass/*.+(scss|sass)")
+    return gulp.src("Projects/Project-3/src/sass/**/*.+(scss|sass)")
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename({prefix: "", suffix: ".min"}))
         .pipe(autoprefixer({
@@ -18,7 +18,7 @@ gulp.task('styles',function () {
 })
 
 gulp.task('watch',function () {
-   gulp.watch("Projects/Project-3/src/sass/*.+(scss|sass)", gulp.parallel("styles"));
+   gulp.watch("Projects/Project-3/src/sass/**/*.+(scss|sass)", gulp.parallel("styles"));
 });
 
 gulp.task('default', gulp.parallel('watch', 'styles'));

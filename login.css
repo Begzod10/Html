@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://p0.pxfuel.com/preview/1/78/398/blogger-browsing-cafe-coffee.jpg");
+    background-size: cover;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login .login_form{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(69, 68, 68, 0.45);
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login .login_form .login_form_header{
+    font-size: 30px;
+}
+.login .login_form .login_form_input{
+    display: flex;
+    flex-direction: column;
+}
+.login .login_form .login_form_input input{
+    margin-top: 30px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 350px;
+    border-left: 5px solid black;
+    background-image: linear-gradient(to right, white 0, #504f4f 100%);
+}
+.login .login_form .login_form_checkbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+}
+.login .login_form .login_form_checkbox input{
+    width: 20px;
+    height: 20px;
+}
+
+.login .login_form .login_form_button{
+    margin-top: 20px;
+}
+.login .login_form .login_form_button button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,  #504f4f 0, white 100%);
+}

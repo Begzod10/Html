@@ -163,5 +163,45 @@ nav
           margin: 5px
           text-align: center
           cursor: pointer
+    &_clothes
+      display: flex
+      justify-content: space-around
+      min-height: 400px
+      &_kids
+        width: 300px
+        display: flex
+        border-left: 2px solid black
+        border-bottom: 2px solid black
+        overflow: auto
+        &_list
+          display: flex
+          flex-direction: column
+          &_wear
+            display: flex
+            flex-direction: column
+            width: 300px
+            border-bottom: 2px solid black
+            &_text
+              text-align: center
+            img
+              display: block
+              margin: 0 auto
+              width: 200px
+            &_button
+              display: flex
+              justify-content: center
+              margin-top: 10px
+              button
+                outline: none
+                border: none
+                padding: 5px
+                border-radius: 5px
+                background-color: #00a6ff
+                color: white
+                width: 100px
+                &:active
+                  background-color: #0a58ca
+                  transform: scale(0.90)
+
 
 

@@ -195,23 +195,22 @@ nav
               border-bottom: 0
             &_text
               text-align: center
-              border-radius: 10px
             img
               display: block
               margin: 0 auto
               width: 200px
             &_button
               display: flex
-              flex-direction: column
-              justify-items: center
+              justify-content: center
               margin-top: 10px
               button
                 outline: none
                 border: none
                 padding: 5px
+                border-radius: 5px
                 background-color: #00a6ff
-                border-radius: 10px
                 color: white
+                width: 100px
                 &:active
                   background-color: #0a58ca
                   transform: scale(0.90)
@@ -261,3 +260,21 @@ nav
           img
             width: 150px
             height: 120px
+
+.techniques
+  min-height: 625px
+  &_basic
+    &__header
+      position: relative
+      top: 10px
+      font-size: 30px
+      text-align: center
+      &:before
+        content: ''
+        position: absolute
+        display: block
+        top: 7px
+        left: 449px
+        width: 26px
+        height: 30px
+        background: url("../icons/wrench-solid.svg")center (center / cover)no-repeat

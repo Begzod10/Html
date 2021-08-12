@@ -200,5 +200,53 @@ nav {
   text-align: center;
   cursor: pointer;
 }
+.clothes_basic_clothes {
+  display: flex;
+  justify-content: space-around;
+  min-height: 400px;
+}
+.clothes_basic_clothes_kids {
+  width: 300px;
+  display: flex;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  overflow: auto;
+}
+.clothes_basic_clothes_kids_list {
+  display: flex;
+  flex-direction: column;
+}
+.clothes_basic_clothes_kids_list_wear {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-bottom: 2px solid black;
+}
+.clothes_basic_clothes_kids_list_wear_text {
+  text-align: center;
+}
+.clothes_basic_clothes_kids_list_wear img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+.clothes_basic_clothes_kids_list_wear_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.clothes_basic_clothes_kids_list_wear_button button {
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #00a6ff;
+  color: white;
+  width: 100px;
+}
+.clothes_basic_clothes_kids_list_wear_button button:active {
+  background-color: #0a58ca;
+  transform: scale(0.9);
+}
 
 /*# sourceMappingURL=style.css.map */
