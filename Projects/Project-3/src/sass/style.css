@@ -1,0 +1,114 @@
+* {
+  font-family: "Museo Sans Cyrl", Sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.promo {
+  min-height: 426px;
+  background: url("../../../../../../HTML lessons/Projects/Project-3/src/img/main.jpg") center center/cover no-repeat;
+}
+.promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 70px;
+}
+.promo__header {
+  color: #FFFFFF;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 42px;
+}
+.promo__subheader {
+  margin-top: 14px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.promo__icons {
+  margin-top: 45px;
+  width: 425px;
+  display: flex;
+  justify-content: space-between;
+}
+.promo__icon {
+  width: 108px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+.promo__icon img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.promo__link {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 14px;
+}
+.promo__link a {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header__logo {
+  width: 250px;
+}
+.header__logo img {
+  width: 100%;
+}
+.header__official {
+  font-size: 12px;
+  font-weight: 500;
+}
+.header__official span {
+  display: block;
+  font-size: 18px;
+}
+.header__phone {
+  display: block;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.header__phone:hover {
+  text-decoration: none;
+  color: #c2c2c2;
+}
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #c70101;
+  border: none;
+  color: #FFFFFF;
+}
+.button_main {
+  margin-top: 67px;
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

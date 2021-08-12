@@ -153,4 +153,100 @@ nav {
   margin: 0 auto;
 }
 
+.clothes {
+  min-height: 625px;
+  margin-bottom: 10px;
+}
+.clothes_basic_header {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.clothes_basic_header:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  left: 480px;
+  top: 9px;
+  background: url("../icons/tshirt-solid.svg") center center/cover no-repeat;
+}
+.clothes_basic_list {
+  display: flex;
+  justify-content: space-around;
+}
+.clothes_basic_list_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clothes_basic_list_info_name {
+  position: relative;
+  top: 34px;
+  width: 52px;
+  padding: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #0aff31;
+}
+.clothes_basic_list_info_desc {
+  width: 400px;
+  padding: 20px;
+  background-color: #0aff31;
+  border-radius: 0 0 10px 10px;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.clothes_basic_clothes {
+  display: flex;
+  justify-content: space-around;
+  min-height: 400px;
+}
+.clothes_basic_clothes_kids {
+  width: 300px;
+  display: flex;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  overflow: auto;
+}
+.clothes_basic_clothes_kids_list {
+  display: flex;
+  flex-direction: column;
+}
+.clothes_basic_clothes_kids_list_wear {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-bottom: 2px solid black;
+}
+.clothes_basic_clothes_kids_list_wear_text {
+  text-align: center;
+}
+.clothes_basic_clothes_kids_list_wear img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+.clothes_basic_clothes_kids_list_wear_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.clothes_basic_clothes_kids_list_wear_button button {
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #00a6ff;
+  color: white;
+  width: 100px;
+}
+.clothes_basic_clothes_kids_list_wear_button button:active {
+  background-color: #0a58ca;
+  transform: scale(0.9);
+}
+
 /*# sourceMappingURL=style.css.map */
